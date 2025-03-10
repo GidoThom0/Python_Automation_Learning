@@ -1,6 +1,6 @@
 from pathlib import Path
 
-p = Path('Text Files', 'spam.txt')
+p = Path('../TextFiles', 'spam.txt')
 p.parent.mkdir(parents=True, exist_ok=True)  # Creates "Text Files" if it doesn't exist
 p.write_text('Hello, World!')
 
